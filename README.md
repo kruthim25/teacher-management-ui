@@ -35,3 +35,4 @@ export function validatePaymentForm(amount: number, method: string): string | nu
   if (!method.trim()) return "Payment method is required";
   return null;
   }
+  
